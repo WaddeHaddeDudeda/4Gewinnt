@@ -1,0 +1,89 @@
+body{
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #05e905, #dd08dd);
+    /*background-image: url("img/background2.png");
+    background-size: cover;
+    background-repeat: no-repeat;*/
+  }
+
+.feld{
+    width: 75px;
+    height: 65px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#game_container{
+    font-family: "Stalinist One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+#feld_container{
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    width: 225px;
+    margin: auto;
+    justify-content: center;
+}
+#restart_button{
+    padding: 10px 20px; 
+    margin: 10px;
+    background-color: #e2df2e;
+    border: none; 
+    border-radius: 5px; 
+    color: white; 
+    font-size: 16px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+    
+}
+#sound{
+    padding: 10px 20px; 
+    margin: 10px;
+    background-color: #e2df2e;
+    border: none; 
+    border-radius: 5px; 
+    color: white; 
+    font-size: 16px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+#restart_button:hover, #sound:hover{
+      background-color: rgb(34, 189, 189);
+}
+#sound_icon{
+    width: 40px;
+    height: 20px;
+}
+.spieler{
+    padding-right: 15px;
+}
+.punkte{
+    padding-left: 15px;    
+}
+
+#punkte_tabelle {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+#punkte_tabelle th, #punkte_tabelle td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+}
+#punkte_tabelle {
+    display: inline-block; /* Fügt dem Container Inline-Block-Verhalten hinzu */
+    margin-top: 10px; /* Abstand zwischen <h1> und Tabelle */
+    border-collapse: collapse;
+    max-width: 600px; /* Beispiel: Legen Sie hier die maximale Breite Ihrer Tabelle fest */
+}
+  
+    
